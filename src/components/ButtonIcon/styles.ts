@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         color: theme.colors.heading,
         fontSize: 15,
-        alignItems: 'center'
+        textAlign: 'center'
     },
     iconWrapper: {
         width: 56,
