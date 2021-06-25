@@ -3,7 +3,7 @@ import {
   View,
   Modal,
   ModalProps,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
 } from 'react-native';
 
 import { styles } from './styles';
@@ -16,9 +16,10 @@ type Props = ModalProps & {
 }
 
 export function ModalView({
-  children,
+  children, 
   closeModal,
-  ...rest }: Props) {
+  ...rest
+}: Props){
   return (
     <Modal
       transparent
